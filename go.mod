@@ -1,4 +1,4 @@
-module github.com/NVIDIA/go-nvml
+module github.com/spheronFdn/go-nvml
 
 go 1.20
 
