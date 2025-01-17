@@ -21,7 +21,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/spheronFdn/go-nvml/pkg/nvml"
+	"github.com/spheronFdn/nvml/pkg/nvml"
 )
 
 func main() {

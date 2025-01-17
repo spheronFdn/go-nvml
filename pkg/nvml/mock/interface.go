@@ -4,7 +4,7 @@
 package mock
 
 import (
-	"github.com/spheronFdn/go-nvml/pkg/nvml"
+	"github.com/spheronFdn/nvml/pkg/nvml"
 	"sync"
 )
 

@@ -39,7 +39,7 @@ compile code that imports these bindings. However, you will get a runtime error
 if `libnvidia-ml.so` is not available in your library path at runtime.
 
 Please see the following link for documentation on the full NVML Go API:
-<http://godoc.org/github.com/spheronFdn/go-nvml/pkg/nvml>
+<http://godoc.org/github.com/spheronFdn/nvml/pkg/nvml>
 
 ## Quick Start
 
@@ -56,7 +56,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/spheronFdn/go-nvml/pkg/nvml"
+	"github.com/spheronFdn/nvml/pkg/nvml"
 )
 
 func main() {
@@ -546,7 +546,7 @@ cd -> /dev/null
     TestEventSet: nvml_test.go:285: EventSet.Free: Success
 --- PASS: TestEventSet (0.06s)
 PASS
-ok  github.com/spheronFdn/go-nvml/pkg/nvml 0.283s
+ok  github.com/spheronFdn/nvml/pkg/nvml 0.283s
 ```
 
 **Note:** A working NVIDIA driver with `libnvidia-ml.so` is not required to

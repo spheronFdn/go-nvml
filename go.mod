@@ -1,4 +1,4 @@
-module github.com/spheronFdn/go-nvml
+module github.com/spheronFdn/nvml
 
 go 1.20
 

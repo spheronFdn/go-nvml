@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/spheronFdn/go-nvml/pkg/dl"
+	"github.com/spheronFdn/nvml/pkg/dl"
 )
 
 import "C"

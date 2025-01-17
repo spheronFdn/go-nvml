@@ -17,7 +17,7 @@
 package dgxa100
 
 import (
-	"github.com/spheronFdn/go-nvml/pkg/nvml"
+	"github.com/spheronFdn/nvml/pkg/nvml"
 )
 
 // MIGProfiles holds the profile information for GIs and CIs in this mock server.

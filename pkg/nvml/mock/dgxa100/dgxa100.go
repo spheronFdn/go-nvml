@@ -21,8 +21,8 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
-	"github.com/spheronFdn/go-nvml/pkg/nvml"
-	"github.com/spheronFdn/go-nvml/pkg/nvml/mock"
+	"github.com/spheronFdn/nvml/pkg/nvml"
+	"github.com/spheronFdn/nvml/pkg/nvml/mock"
 )
 
 type Server struct {
