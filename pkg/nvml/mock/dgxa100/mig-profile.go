@@ -17,7 +17,7 @@
 package dgxa100
 
 import (
-	"github.com/NVIDIA/go-nvml/pkg/nvml"
+	"github.com/spheronFdn/go-nvml/pkg/nvml"
 )
 
 // MIGProfiles holds the profile information for GIs and CIs in this mock server.

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/NVIDIA/go-nvml/pkg/nvml"
-	"github.com/NVIDIA/go-nvml/pkg/nvml/mock"
 	"github.com/google/uuid"
+	"github.com/spheronFdn/go-nvml/pkg/nvml"
+	"github.com/spheronFdn/go-nvml/pkg/nvml/mock"
 )
 
 type Server struct {

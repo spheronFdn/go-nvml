@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/NVIDIA/go-nvml/pkg/nvml"
+	"github.com/spheronFdn/go-nvml/pkg/nvml"
 )
 
 func main() {

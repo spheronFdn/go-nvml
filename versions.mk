@@ -16,7 +16,7 @@
 GIT_COMMIT ?= $(shell git describe --match="" --dirty --long --always --abbrev=40 2> /dev/null || echo "")
 GIT_TAG ?= $(patsubst v%,%,$(shell git describe --tags 2>/dev/null))
 
-MODULE := github.com/NVIDIA/go-nvml
+MODULE := github.com/spheronFdn/go-nvml
 VERSION ?= $(GIT_TAG)
 
 GOLANG_VERSION ?= 1.23.2
